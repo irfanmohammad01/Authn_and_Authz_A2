@@ -1,0 +1,31 @@
+Submit the GIT repo link as a submission on Openverse
+Task: Build a mini JWT-based authentication system
+
+Write a program that:
+
+1.    Generates a JWT
+
+        Contains claims:
+        { "sub": "<user-id>", "role": "user" }
+
+        Signs it using a secret key
+
+        Prints the token
+
+2.   Validates a JWT
+
+        Input: token
+
+        Verify signature
+
+        Verify expiration
+
+        Decode payload
+
+        If valid, print "Token Valid" + claims
+
+        If invalid, print "Token Invalid"
+
+3.    Add Expiry Handling
+
+        Reject expired tokens
